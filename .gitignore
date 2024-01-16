@@ -31,18 +31,27 @@ wp-config.php
 
 # Log files
 *.log
+error_log
 
 # htaccess
-/.htaccess
+/.htaccess*
 
 # All plugins
 #
 # Note: If you wish to whitelist plugins,
 # uncomment the next line
-#/wp-content/plugins
+/wp-content/plugins
 
 # All themes
 #
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes
+
+# MISC
+wp-content/advanced-cache.php
+wp-content/aiowps_backups
+*.sql
+*.tar
+*.gz
+local-xdebuginfo.php
